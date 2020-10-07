@@ -27,7 +27,7 @@ if(!isset($_COOKIE["type"]))
    <?php
    if(isset($_COOKIE["type"]))
    {
-    echo '<h2 align="center">Welcome User</h2>';
+    echo '<h2 align="center">Welcome '.$_COOKIE["type"].'</h2>';
    }
    ?>
   </div>
